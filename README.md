@@ -1,7 +1,7 @@
 # LarsonScanner
 # Code for Knight Rider's Larson Scanner
 # C++ code
-int led[]={2,3,4,5,6};
+int led[]={2,3,4};
 int sizeled=0;
 int count=0;
 
@@ -18,9 +18,9 @@ void loop(){
   digitalWrite(led[2], HIGH);
 
   delay(1000);
-  digitalWrite(led[0], LOW);
-  digitalWrite(led[1], LOW);
-  digitalWrite(led[2], LOW);
+  digitalWrite(led[2], HIGH);
+  digitalWrite(led[1], HIGH);
+  digitalWrite(led[0], HIGH);
 
   delay(1000);
 int i;
